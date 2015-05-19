@@ -1,5 +1,5 @@
 {
-  "name": "work-style-guide",
+  "name": "ap-work-styles",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/appirio-tech/work-style-guide.git"
+    "url": "git://github.com/appirio-tech/work-styles.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/appirio-tech/work-style-guide/issues"
+    "url": "https://github.com/appirio-tech/work-styles/issues"
   },
-  "homepage": "https://github.com/appirio-tech/work-style-guide",
+  "homepage": "https://github.com/appirio-tech/work-styles",
   "devDependencies": {
     "browser-sync": "^1.8.2",
     "coffee-script": "^1.9.2",
