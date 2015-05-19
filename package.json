@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/appirio-tech/work-style-guide/issues"
   },
-  "private": true,
   "homepage": "https://github.com/appirio-tech/work-style-guide",
   "devDependencies": {
     "browser-sync": "^1.8.2",
