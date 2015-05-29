@@ -1,14 +1,30 @@
-@import "bourbon";
-@import "neat";
-
-@import "colors";
-@import "buttons";
-
+@import "work-includes";
+@import "reset";
 @import "roboto-slab";
 @import "source-sans-pro";
+@import "buttons";
+@import "typography";
+@import "form";
+
+html {
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
-  > main {
-    @include outer-container;
-  }
+  position           : relative;
+  min-height         : 100%;
+  margin             : 0;
+  padding            : 0;
+  overflow-x         : hidden;
+  overflow-y         : auto;
+  -webkit-text-stroke: 1px transparent;
+
+  @include font-line(14);
+  @include source-sans();
 }
+

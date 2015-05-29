@@ -1,0 +1,47 @@
+@import "work-includes";
+
+ul.examples.colors {
+  li {
+    .example {
+      min-width : 50px;
+      min-height: 50px;
+
+      &.primary-color {
+        background-color: $primary-color;
+      }
+
+      &.primary-color-dark {
+        background-color: $primary-color-dark;
+      }
+
+      &.primary-color-darkest {
+        background-color: $primary-color-darkest;
+      }
+
+      &.primary-color-light {
+        background-color: $primary-color-light;
+      }
+
+      &.primary-color-lightest {
+        background-color: $primary-color-lightest;
+      }
+
+      &.color-success {
+        background-color: $color-success;
+      }
+
+      &.color-danger {
+        background-color: $color-danger;
+      }
+
+      &.color-info {
+        background-color: $color-info;
+      }
+
+      &.color-warning {
+        background-color: $color-warning;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,13 @@
+- spacings = ['spacing', 'spacing-small', 'spacing-smallest', 'spacing-big', 'spacing-biggest']
+
+h1 Spacing
+
+hr
+
+ul.examples.spacings
+  - for spacing in spacings
+    li
+      label $#{spacing}
+
+      .example(class=spacing)
+        .filler.primary-color

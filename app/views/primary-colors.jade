@@ -1,0 +1,12 @@
+- primaryColors = ['primary-color-lightest', 'primary-color-light', 'primary-color', 'primary-color-dark', 'primary-color-darkest', ]
+
+h1 Primary Colors
+
+hr
+
+ul.examples.colors
+  - for color in primaryColors
+    li
+      label $#{color}
+
+      .example(class=color)

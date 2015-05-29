@@ -1,0 +1,15 @@
+input[type="text"] {
+  padding         : $spacing;
+  width           : 100%;
+  border          : 0;
+  color           : $primary-color-darkest;
+  background-color: $primary-color-lightest;
+
+  @include font-line(16);
+}
+
+label {
+  display: inline-block;
+  padding: 10px 0;
+  @include roboto();
+}

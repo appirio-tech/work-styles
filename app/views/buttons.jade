@@ -1,0 +1,12 @@
+- types = ['success', 'warning', 'danger', 'info']
+h1 Buttons
+
+hr
+
+ul.examples
+  - for type in types
+    li
+      label .#{type}
+
+      .example
+        button(class=type) Submit

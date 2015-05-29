@@ -1,0 +1,24 @@
+@import "work-includes";
+@import "work-styles";
+
+body {
+  > main {
+    padding: 10px;
+  }
+
+  li {
+    margin: 10px;
+  }
+}
+
+ul.examples {
+  li {
+    display: inline-block;
+    text-align: center;
+
+    .example {
+      display   : block;
+      margin    : 0 auto;
+    }
+  }
+}

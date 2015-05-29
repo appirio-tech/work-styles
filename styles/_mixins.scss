@@ -1,0 +1,43 @@
+@mixin font-line($pt) {
+  @include font($pt);
+
+  @include line-height($pt * 1.20);
+}
+
+@mixin font($pt) {
+  font-size: ($pt * $base);
+}
+
+@mixin line-height($pt) {
+  line-height: ($pt * $base);
+}
+
+@mixin roboto-light() {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+@mixin roboto-thin() {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+}
+
+@mixin roboto() {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+@mixin roboto-bold() {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+@mixin source-sans-light() {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+@mixin source-sans() {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}

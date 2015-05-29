@@ -1,4 +1,4 @@
-- var cssPaths = ['reset', 'main']
+- var cssPaths = ['main', 'spacing', 'colors']
 
 html(ng-app='timeline')
   head
@@ -15,7 +15,14 @@ html(ng-app='timeline')
 
   body
     main
-      h1 Colors
-        ul
-          li red
+      include views/mixins
 
+      include views/primary-colors
+
+      include views/secondary-colors
+
+      include views/buttons
+
+      include views/spacing
+
+      include views/form

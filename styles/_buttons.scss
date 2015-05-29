@@ -1,5 +1,28 @@
-@import "colors";
-
 button {
-  background-color: red;
+  border-radius: 4px;
+  border       : none;
+  padding      : 8px 6px;
+
+  @include roboto();
+  @include font-line(16);
+
+  &.success {
+    background-color: $color-success;
+    color           : white;
+  }
+
+  &.warning {
+    background-color: $color-warning;
+    color           : white;
+  }
+
+  &.danger {
+    background-color: $color-danger;
+    color           : white;
+  }
+
+  &.info {
+    background-color: $color-info;
+    color           : white;
+  }
 }
