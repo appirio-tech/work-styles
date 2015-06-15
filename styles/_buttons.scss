@@ -29,7 +29,11 @@ button {
 
   &.clean {
     background-color: initial;
-    @include font-line(14);
-    @include source-sans();
+    padding         : initial;
+    border-radius   : initial;
+    border          : initial;
+    font-size       : initial;
+    font            : initial;
+    line-height     : initial;
   }
 }
