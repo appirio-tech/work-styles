@@ -28,3 +28,11 @@ body {
   @include source-sans();
 }
 
+hr {
+  height          : 2px;
+  border          : none;
+  background-color: $primary-color-lightest;
+  margin-top      : $spacing-small;
+  margin-bottom   : $spacing;
+}
+
