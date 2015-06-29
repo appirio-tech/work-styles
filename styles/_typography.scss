@@ -28,5 +28,5 @@ time {
 }
 
 label {
-  font-weight: bold;
+  @include roboto-bold();
 }
