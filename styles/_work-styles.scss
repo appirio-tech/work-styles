@@ -23,6 +23,8 @@ body {
   overflow-x         : hidden;
   overflow-y         : auto;
   -webkit-text-stroke: 1px transparent;
+  background-color   : $primary-color-darkest
+;
 
   @include font-line(14);
   @include source-sans();
