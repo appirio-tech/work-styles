@@ -48,3 +48,28 @@
     vertical-align: middle;
   }
 }
+
+@mixin bg-image-ratio($low, $high) {
+  background-repeat: no-repeat;
+
+  @media (-webkit-max-device-pixel-ratio: 1.99), (max-resolution: 191dpi) {
+    background-image: url($low);
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url($high);
+  }
+}
+
+@mixin bg-cover($src) {
+  background             : url($src) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size   : cover;
+  -o-background-size     : cover;
+  background-size        : cover;
+}
+
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
