@@ -1,6 +1,8 @@
 @import "work-includes";
 
 ul.line-heights {
+  @include flex-center;
+
   .line-height {
     line-height: $line-height;
   }

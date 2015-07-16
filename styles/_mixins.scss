@@ -74,8 +74,9 @@
   &:nth-child(#{$nth}+1) { clear: none }
 }
 
-@mixin flex-center() {
-  display    : flex;
-  align-items: center;
-  flex-wrap  : wrap;
+@mixin flex-center($justify-content: flex-start) {
+  justify-content: $justify-content;
+  display        : flex;
+  align-items    : center;
+  flex-wrap      : wrap;
 }
