@@ -1,17 +1,52 @@
-h1 Typography
+ul
+  li
+    h1 Typography
 
-hr
+  li
+    hr
 
-h1 h1
+  li
+    h1 h1
 
-h2 h2
+  li
+    h2 h2
 
-h3 h3
+  li
+    h3 h3
 
-h4 h4 h5 h6
+  li
+    h4 h4 h5 h6
 
-time time
+  li
+    time time
 
-br
+  li
+    label label
 
-label label
+  li
+    p p
+
+  li
+    div div
+
+- fontSizes = ['font-size', 'font-size-small', 'font-size-smallest', 'font-size-big', 'font-size-biggest']
+
+h2 Font Sizes
+
+ul.examples.font-sizes
+  - for fontSize in fontSizes
+    li
+      label $#{fontSize}
+
+      .example(class=fontSize) batman
+
+- lineHeights = ['line-height', 'line-height-small', 'line-height-smallest', 'line-height-big', 'line-height-biggest']
+
+h2 Line Heights
+
+ul.examples.line-heights
+  - for lineHeight in lineHeights
+    li
+      label $#{lineHeight}
+
+      .example(class=lineHeight style="background-color:grey") batman

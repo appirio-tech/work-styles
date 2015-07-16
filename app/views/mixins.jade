@@ -5,9 +5,9 @@ hr
 ul
   li @mixin font-line($pt)
 
-  li @mixin font($pt)
+  li @mixin font($pt) *to be deprecated
 
-  li @mixin line-height($pt)
+  li @mixin line-height($pt) *to be deprecated
 
   li @mixin roboto-light()
 
@@ -21,10 +21,12 @@ ul
 
   li @mixin source-sans()
 
-  li @mixin vertical-align-middle()
+  li @mixin vertical-align-middle() *to be deprecated in favor of display flex
 
   li @mixin bg-image-ratio($low, $high)
 
   li @mixin bg-cover($src)
 
-  li @mixin omega-reset($nth)
+  li @mixin omega-reset($nth) *to be deprecated in favor of display flex
+
+  li @mixin flex-center() #uses flexbox to vertical-align and allow wrap
