@@ -74,9 +74,16 @@
   &:nth-child(#{$nth}+1) { clear: none }
 }
 
-@mixin flex-center($justify-content: flex-start) {
+@mixin flex-center($justify-content: flex-start, $margin: '') {
   justify-content: $justify-content;
   display        : flex;
   align-items    : center;
   flex-wrap      : wrap;
+
+  @if $margin != '' {
+    > * {
+      margin-bottom: $margin;
+      margin-right: $margin
+    }
+  }
 }
