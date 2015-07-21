@@ -1,0 +1,12 @@
+- borderRadiuses = ['border-radius', 'border-radius-small', 'border-radius-smallest', 'border-radius-big', 'border-radius-biggest']
+
+h1 Border Radiuses
+
+hr
+
+ul.examples.border-radiuses
+  - for borderRadius in borderRadiuses
+    li
+      label $#{borderRadius}
+
+      .example(class=borderRadius)

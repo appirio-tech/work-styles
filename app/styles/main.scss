@@ -18,6 +18,11 @@ ul.examples {
     display: inline-block;
     text-align: center;
 
+    label {
+      margin-bottom: $spacing;
+      display: inline-block;
+    }
+
     .example {
       display   : block;
       margin    : 0 auto;

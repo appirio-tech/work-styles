@@ -14,29 +14,3 @@
   }
 }
 
-
-
-.loader-dots::before {
-  content                  : ". . .";
-  white-space              : nowrap;
-  display                  : block;
-  overflow                 : hidden;
-  width                    : 30px;
-  animation-name           : change-dots;
-  animation-duration       : .5s;
-  animation-iteration-count: infinite;
-  animation-direction      : alternate;
-  font-size: $font-size-biggest;
-}
-
-@keyframes change-dots {
-  0% {
-    width: 0px;
-  }
-  33% {
-    width: 15px;
-  }
-  100% {
-    width: 30px;
-  }
-}
