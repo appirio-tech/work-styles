@@ -1,4 +1,4 @@
-- icons = ['checkmark', 'bubble', 'envelope']
+- icons = ['checkmark', 'bubble', 'envelope', 'circle-arrow', 'circle-arrow.right']
 - sizes = ['', 'small', 'smallest', 'big', 'biggest']
 
 h1 Icons
@@ -13,4 +13,4 @@ hr
       li
         label .icon.#{icon}.#{size}
 
-        .example.icon(class="#{icon} #{size}")
+        .example.icon(class="#{icon.replace('.', ' ')} #{size}")
