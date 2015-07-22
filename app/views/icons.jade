@@ -1,0 +1,16 @@
+- icons = ['checkmark', 'bubble', 'envelope']
+- sizes = ['', 'small', 'smallest', 'big', 'biggest']
+
+h1 Icons
+
+hr
+
+- for icon in icons
+  h2 #{icon}
+
+  ul.examples.icons
+    - for size in sizes
+      li
+        label .icon.#{icon}.#{size}
+
+        .example.icon(class="#{icon} #{size}")
