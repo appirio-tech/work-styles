@@ -79,6 +79,7 @@
   @include justify-content($justify-content);
   @include align-items(center);
   @include flex-wrap(wrap);
+  @include flex-direction(row);
 
   @if $margin != '' {
     padding-top: $margin;
