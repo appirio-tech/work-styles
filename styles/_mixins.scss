@@ -76,10 +76,9 @@
 
 @mixin flex-center($justify-content: flex-start, $margin: '') {
   @include display(flex);
-
-  justify-content: $justify-content;
-  align-items    : center;
-  flex-wrap      : wrap;
+  @include justify-content($justify-content);
+  @include align-items(center);
+  @include flex-wrap(wrap);
 
   @if $margin != '' {
     padding-top: $margin;
