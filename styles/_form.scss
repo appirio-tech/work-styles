@@ -5,5 +5,5 @@ input[type="text"], input[type="password"] {
   color           : $primary-color-darkest;
   background-color: $primary-color-lightest;
 
-  @include font-line(16);
+  @include font-line($font-size-big);
 }

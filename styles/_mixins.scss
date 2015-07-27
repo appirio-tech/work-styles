@@ -1,7 +1,6 @@
 @mixin font-line($pt) {
-  @include font($pt);
-
-  @include line-height($pt * 1.20);
+  font-size  : $pt;
+  line-height: $pt * 1.20;
 }
 
 @mixin font($pt) {

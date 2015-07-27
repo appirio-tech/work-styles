@@ -7,19 +7,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @include font-line(30);
+  @include font-line(30px);
 }
 
 h2 {
-  @include font-line(20);
+  @include font-line(20px);
 }
 
 h3 {
-  @include font-line(18);
+  @include font-line(18px);
 }
 
 h4, h5 h6 {
-  @include font-line(16);
+  @include font-line(16px);
 }
 
 time {
@@ -32,6 +32,5 @@ label {
 }
 
 p {
-  font-size: $font-size;
-  line-height: $line-height;
+  @include font-line($font-size);
 }
