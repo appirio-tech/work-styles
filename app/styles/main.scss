@@ -29,3 +29,7 @@ ul.examples {
     }
   }
 }
+
+.null {
+  @include block-center();
+}
