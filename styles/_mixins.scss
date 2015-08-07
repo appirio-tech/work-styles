@@ -80,9 +80,6 @@
   @include flex-wrap(wrap);
 
   @if $margin != '' {
-    padding-top: $margin;
-    padding-left: $margin;
-
     > * {
       margin-bottom: $margin;
       margin-right: $margin
