@@ -32,8 +32,8 @@ button {
     padding         : initial;
     border-radius   : initial;
     border          : initial;
-    font-size       : initial;
-    font            : initial;
-    line-height     : initial;
+    font-size       : inherit;
+    font            : inherit;
+    line-height     : inherit;
   }
 }
