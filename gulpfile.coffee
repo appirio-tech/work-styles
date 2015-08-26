@@ -1,33 +1,10 @@
-gulp          = require 'gulp'
-$             = require('gulp-load-plugins')()
-$.browserSync = require 'browser-sync'
-
-
 configs =
-  jadeFiles       : 'app/**/*.jade'
-  scssFiles       : ['app/**/*.scss', 'styles/**/*.scss']
-  scssIncludePaths: require('./index').includePaths
-  tempFolder      : '.tmp'
-  appFolder       : 'app'
-  distFolder      : 'dist'
+  __dirname : __dirname
 
-tasks = [
-  'coffee'
-  'jade'
-  'scss'
-  'clean'
-  'serve'
-  'build'
-  'test'
-  'ng-constant'
-  'coveralls'
-  'fixtures'
-]
+configs.scss =
+  includePaths: require('./index').includePaths
 
-for task in tasks
-  module = require('./node_modules/appirio-gulp-tasks/tasks/' + task)
-  module gulp, $, configs
+### END CONFIG ###
+loadTasksModule = require __dirname + '/node_modules/appirio-gulp-tasks/load-tasks.coffee'
 
-gulp.task 'default', ['clean'], ->
-  gulp.start 'build'
-
+loadTasksModule.loadTasks configs
