@@ -16,7 +16,7 @@ deploy:
   detect_encoding: true
   access_key_id: "$AWS_KEY"
   secret_access_key: "$AWS_SECRET"
-  bucket: style.topcoder-dev.com
+  bucket: styles.topcoder-dev.com
   skip_cleanup: true
   local_dir: dist
   on:
