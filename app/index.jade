@@ -1,4 +1,4 @@
-- var cssPaths = ['main', 'spacing', 'colors', 'font-sizes', 'line-heights', 'border-radiuses', 'icons']
+- var css = ['main', 'spacing', 'colors', 'font-sizes', 'line-heights', 'border-radiuses', 'icons']
 
 html(ng-app='timeline')
   head
@@ -10,8 +10,14 @@ html(ng-app='timeline')
 
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no')
 
-    each path in cssPaths
-      link(href="styles/#{path}.css", rel="stylesheet")
+    = "\n"
+    // build:css styles/app.css
+    = "\n"
+    each path in css
+      link(href='/styles/' + path + ".css", rel="stylesheet")
+      = "\n"
+    // endbuild
+    = "\n"
 
     script(src="//use.typekit.net/jjo6pal.js")
 
