@@ -13,13 +13,18 @@ html(ng-app='timeline')
     each path in cssPaths
       link(href="styles/#{path}.css", rel="stylesheet")
 
+    script(src="//use.typekit.net/jjo6pal.js")
+
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+
   body
     main
       include views/mixins
 
       include views/primary-colors
 
-      include views/secondary-colors
+      include views/neutral-colors
 
       include views/buttons
 

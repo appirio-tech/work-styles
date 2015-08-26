@@ -1,30 +1,103 @@
 button {
   @include roboto();
 
-  border-radius: $border-radius;
-  border       : none;
-  padding      : $spacing-small;
-  cursor       : pointer;
-  font-size    : $font-size;
+  border-radius   : $border-radius-smallest;
+  border          : 1px solid $primary-color;
+  padding         : $spacing-small;
+  color           : $primary-color;
+  background-color: $white;
+  cursor          : pointer;
+  font-size       : $font-size;
+
+  &.smallest {
+    font-size: $font-size-smallest;
+    padding: $spacing-smallest;
+  }
+
+  &.small {
+    font-size: $font-size-small;
+    padding: $spacing-smallest;
+  }
+
+  &.big {
+    font-size: $font-size-big;
+    padding: $spacing-small;
+  }
+
+  &.biggest {
+    font-size: $font-size-biggest;
+    padding: $spacing-small;
+  }
+
+
+  &.action {
+    background-color: $primary-color;
+    color           : $white;
+    border          : none;
+
+    &:hover {
+      background-color: #0282BD;
+    }
+
+    &:disabled {
+      background-color: #A6E0FB;
+    }
+  }
 
   &.success {
-    background-color: $color-success;
-    color           : white;
+    background-color: $success-color;
+    color           : $white;
+    border          : none;
+
+    &:hover {
+      background-color: #6B8E01;
+    }
+
+    &:disabled {
+      background-color: #B6C194;
+    }
   }
 
   &.warning {
     background-color: $color-warning;
-    color           : white;
+    color           : $white;
+    border          : none;
+
+    &:hover {
+      background-color: #98960E;
+    }
+
+    &:disabled {
+      background-color: #D8D7A6;
+    }
   }
 
   &.danger {
     background-color: $color-danger;
     color           : white;
+    border          : none;
+
+    &:hover {
+      background-color: #802511;
+    }
+
+    &:disabled {
+      background-color: #DEA295;
+    }
   }
 
   &.info {
-    background-color: $color-info;
-    color           : white;
+    background-color: $primary-color;
+    color           : $black;
+    border          : none;
+
+    &:hover {
+      background-color: #0282BD;
+    }
+
+    &:disabled {
+      background-color: #A6E0FB;
+    }
   }
 
   &.clean {
