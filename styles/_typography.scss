@@ -7,20 +7,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @include font-line(90px);
+  @include font-line(60px);
+
+  text-transform: uppercase;
+}
+
+h2 {
+  @include font-line(40px);
+
+  text-transform: uppercase;
+}
+
+h3 {
+  @include font-line(30px);
+
+  text-transform: uppercase;
+}
+
+h4 {
+  @include font-line(20px);
+
+  text-transform: uppercase;
+}
+
+h5 {
+  @include font-line(16px);
 
   font-weight: bold;
 }
 
-h2 {
-  @include font-line(20px);
-}
-
-h3 {
-  @include font-line(18px);
-}
-
-h4, h5 h6 {
+h6 {
   @include font-line(16px);
 }
 
@@ -30,7 +46,7 @@ time {
 }
 
 label {
-  @include roboto-bold();
+  font-weight: bold;
 }
 
 p {

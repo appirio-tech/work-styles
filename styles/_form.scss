@@ -1,9 +1,9 @@
 input[type="text"], input[type="password"], input[type="email"] {
-  padding         : $spacing;
-  width           : 100%;
-  border          : 0;
-  color           : $primary-color-darkest;
-  background-color: $primary-color-lightest;
-
   @include font-line($font-size-big);
+
+  padding      : $spacing;
+  width        : 100%;
+  border       : 1px solid $neutral-color-light;
+  color        : $primary-color;
+  border-radius: $border-radius-smallest;
 }

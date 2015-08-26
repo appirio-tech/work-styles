@@ -1,6 +1,4 @@
 button {
-  @include roboto();
-
   border-radius   : $border-radius-smallest;
   border          : 1px solid $primary-color;
   padding         : $spacing-small;
@@ -8,6 +6,8 @@ button {
   background-color: $white;
   cursor          : pointer;
   font-size       : $font-size;
+  text-transform  : uppercase;
+  font-weight     : 400;
 
   &.smallest {
     font-size: $font-size-smallest;
