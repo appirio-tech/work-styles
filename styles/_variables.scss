@@ -1,27 +1,6 @@
-
 // disable border-box-sizing in bourbon-neat
 $border-box-sizing: false;
 
-// Colors
-// Greys
-$mercury     : #e6e6e6;
-$mine-shaft  : #2D2D2D;
-$gray-chateau: #A7A9AB;
-
-// Primary colors
-$primary-color         : #666;
-$primary-color-light   : $gray-chateau;
-$primary-color-lightest: $mercury;
-$primary-color-dark    : #444;
-$primary-color-darkest : $mine-shaft;
-
-// complementary colors
-$color-success: #469408;
-$color-warning: #DAD714;
-$color-danger : #D9401F;
-$color-info   : #029ACF;
-
-$base            : 1px;
 $spacing         : 14px;
 $spacing-big     : 18px;
 $spacing-biggest : 24px;
@@ -40,14 +19,11 @@ $line-height-biggest : 26px;
 $line-height-small   : 12px;
 $line-height-smallest: 10px;
 
-
 $border-radius         : 6px;
 $border-radius-big     : 8px;
 $border-radius-biggest : 10px;
 $border-radius-small   : 4px;
 $border-radius-smallest: 2px;
-
- // V2
 
 $black: #000;
 $white: #fff;
@@ -63,4 +39,3 @@ $neutral-color-dark    : #7f7f7f;
 $neutral-color-darkest : #3d3d3d;
 $neutral-color-light   : #d1d3d4;
 $neutral-color-lightest: #f0f0f0;
-  
