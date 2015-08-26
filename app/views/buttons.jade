@@ -1,4 +1,6 @@
-- types = ['', 'success', 'warning', 'danger', 'info', 'clean']
+- types = ['', 'action', 'success', 'warning', 'danger', 'info', 'clean']
+- sizes = ['small', 'smallest', 'big', 'biggest']
+
 h1 Buttons
 
 hr
@@ -10,3 +12,15 @@ ul.examples
 
       .example
         button(class=type) Submit
+
+        | 
+
+        button(class=type disabled=true) Disabled
+
+ul.examples
+  - for size in sizes
+    li
+      label .#{size}
+
+      .example
+        button(class=size) Submit

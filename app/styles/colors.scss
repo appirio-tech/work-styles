@@ -10,38 +10,49 @@ ul.examples.colors {
         background-color: $primary-color;
       }
 
-      &.primary-color-dark {
-        background-color: $primary-color-dark;
+      &.neutral-color {
+        background-color: $neutral-color;
       }
 
-      &.primary-color-darkest {
-        background-color: $primary-color-darkest;
+      &.neutral-color-dark {
+        background-color: $neutral-color-dark;
       }
 
-      &.primary-color-light {
-        background-color: $primary-color-light;
+      &.neutral-color-darkest {
+        background-color: $neutral-color-darkest;
       }
 
-      &.primary-color-lightest {
-        background-color: $primary-color-lightest;
+      &.neutral-color-light {
+        background-color: $neutral-color-light;
       }
 
-      &.color-success {
-        background-color: $color-success;
+      &.neutral-color-lightest {
+        background-color: $neutral-color-lightest;
       }
 
-      &.color-danger {
-        background-color: $color-danger;
+      &.success-color {
+        background-color: $success-color;
       }
 
-      &.color-info {
-        background-color: $color-info;
+      &.danger-color {
+        background-color: $danger-color;
       }
 
-      &.color-warning {
-        background-color: $color-warning;
+      &.accent-color {
+        background-color: $accent-color;
       }
 
+      &.warning-color {
+        background-color: $warning-color;
+      }
+
+      &.white {
+        background-color: $white;
+      }
+
+      &.black {
+        background-color: $black;
+      }
     }
   }
 }

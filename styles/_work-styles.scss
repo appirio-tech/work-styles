@@ -1,7 +1,5 @@
 @import "work-includes";
 @import "reset";
-@import "roboto-slab";
-@import "source-sans-pro";
 @import "buttons";
 @import "typography";
 @import "form";
@@ -19,8 +17,7 @@ html {
 }
 
 body {
-  @include source-sans();
-
+  font-family        : "sofia-pro";
   position           : relative;
   min-height         : 100%;
   margin             : 0;
@@ -42,5 +39,6 @@ hr {
 
 a {
   cursor: pointer;
+  color: $primary-color;
 }
 
