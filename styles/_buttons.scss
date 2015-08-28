@@ -29,6 +29,17 @@ button {
     padding: $spacing-small;
   }
 
+  &.wide {
+    min-width: 120px;
+  }
+
+  &.wider {
+    min-width: 240px;
+  }
+
+  &.widest {
+    width: 100%;
+  }
 
   &.action {
     background-color: $primary-color;

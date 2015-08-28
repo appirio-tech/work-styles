@@ -1,5 +1,6 @@
 - types = ['', 'action', 'success', 'warning', 'danger', 'info', 'clean']
 - sizes = ['small', 'smallest', 'big', 'biggest']
+- widths = ['wide', 'wider']
 
 h1 Buttons
 
@@ -24,3 +25,16 @@ ul.examples
 
       .example
         button(class=size) Submit
+
+ul.examples
+  - for width in widths
+    li
+      label .#{width}
+
+      .example
+        button(class=width) Submit
+
+label .widest
+
+button.widest Submit
+
