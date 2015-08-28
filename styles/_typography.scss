@@ -52,3 +52,7 @@ label {
 p {
   @include font-line($font-size);
 }
+
+strong {
+  font-weight: bold;
+}
