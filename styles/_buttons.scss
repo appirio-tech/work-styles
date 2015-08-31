@@ -1,7 +1,7 @@
 button {
   border-radius   : $border-radius-smallest;
   border          : 1px solid $primary-color;
-  padding         : $spacing-small;
+  padding         : $padding-small;
   color           : $primary-color;
   background-color: $white;
   cursor          : pointer;
@@ -11,22 +11,22 @@ button {
 
   &.smallest {
     font-size: $font-size-smallest;
-    padding: $spacing-smallest;
+    padding: $padding-smallest;
   }
 
   &.small {
     font-size: $font-size-small;
-    padding: $spacing-smallest;
+    padding: $padding-smallest;
   }
 
   &.big {
     font-size: $font-size-big;
-    padding: $spacing-small;
+    padding: $padding-small;
   }
 
   &.biggest {
     font-size: $font-size-biggest;
-    padding: $spacing-small;
+    padding: $padding-small;
   }
 
   &.wide {

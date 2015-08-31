@@ -1,0 +1,13 @@
+- paddings = ['padding-smallest', 'padding-small', 'padding', 'padding-big', 'padding-biggest']
+
+h1 Paddings
+
+hr
+
+ul.examples.paddings
+  - for padding in paddings
+    li
+      label $#{padding}
+
+      .example(class=padding)
+        .filler.primary-color

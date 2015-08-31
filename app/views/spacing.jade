@@ -1,13 +1,15 @@
 - spacings = ['spacing', 'spacing-small', 'spacing-smallest', 'spacing-big', 'spacing-biggest']
 
-h1 Spacing
+h1
+  strike Spacing
 
 hr
 
 ul.examples.spacings
   - for spacing in spacings
     li
-      label $#{spacing}
+      label
+        strike $#{spacing}
 
       .example(class=spacing)
         .filler.primary-color

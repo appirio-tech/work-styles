@@ -1,0 +1,13 @@
+- margins = ['margin-smallest', 'margin-small', 'margin', 'margin-big', 'margin-biggest']
+
+h1 Margins
+
+hr
+
+ul.examples.margins
+  - for margin in margins
+    li
+      label $#{margin}
+
+      .example
+        .filler.primary-color(class=margin)
