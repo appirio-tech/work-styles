@@ -45,6 +45,7 @@ button {
     background-color: $primary-color;
     color           : $white;
     border          : none;
+    margin          : 1px; /* compensate for border none */
 
     &:hover {
       background-color: #0282BD;
@@ -59,6 +60,7 @@ button {
     background-color: $success-color;
     color           : $white;
     border          : none;
+    margin          : 1px; /* compensate for border none */
 
     &:hover {
       background-color: #6B8E01;
@@ -73,6 +75,7 @@ button {
     background-color: $warning-color;
     color           : $white;
     border          : none;
+    margin          : 1px; /* compensate for border none */
 
     &:hover {
       background-color: #98960E;
@@ -87,6 +90,7 @@ button {
     background-color: $danger-color;
     color           : white;
     border          : none;
+    margin          : 1px; /* compensate for border none */
 
     &:hover {
       background-color: #802511;
@@ -101,6 +105,7 @@ button {
     background-color: $primary-color;
     color           : $black;
     border          : none;
+    margin          : 1px; /* compensate for border none */
 
     &:hover {
       background-color: #0282BD;
