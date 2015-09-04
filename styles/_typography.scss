@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 10px;
+  margin-top: $margin;
 
   &:first-child {
     margin-top: 0;
@@ -7,37 +7,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @include font-line(40px);
-
+  font-size: 40px;
   text-transform: uppercase;
 }
 
 h2 {
-  @include font-line(30px);
-
+  font-size: 30px;
   text-transform: uppercase;
 }
 
 h3 {
-  @include font-line(22px);
-
+  font-size: 22px;
   text-transform: uppercase;
 }
 
 h4 {
-  @include font-line(18px);
-
+  font-size: 18px;
   text-transform: uppercase;
 }
 
 h5 {
-  @include font-line(16px);
-
+  font-size: 16px;
   font-weight: bold;
 }
 
 h6 {
-  @include font-line(16px);
+  font-size: 16px;
 }
 
 time {
