@@ -1,10 +1,8 @@
 input[type="text"], input[type="password"], input[type="email"] {
   @include font-line($font-size-big);
 
-
   font-family  : "sofia-pro";
   padding      : $padding;
-  width        : 100%;
   border       : 1px solid $neutral-color-light;
   color        : $primary-color;
   border-radius: $border-radius-smallest;
@@ -13,13 +11,25 @@ input[type="text"], input[type="password"], input[type="email"] {
 textarea {
   @include font-line($font-size-big);
 
-
   font-family  : "sofia-pro";
   display      : block;
-  width        : 100%;
   height       : 75px;
   color        : $primary-color;
   border       : 1px solid $neutral-color-light;
   border-radius: $border-radius-smallest;
   padding      : $padding;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea {
+  &.wide {
+    width: 350px;
+  }
+
+  &.wider {
+    width: 550px;
+  }
+
+  &.widest {
+    width: 100%;
+  }
 }
