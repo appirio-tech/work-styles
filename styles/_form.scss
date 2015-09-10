@@ -2,6 +2,7 @@ input[type="text"], input[type="password"], input[type="email"] {
   @include font-line($font-size-big);
 
   font-family  : "sofia-pro";
+  display      : block;
   padding      : $padding;
   border       : 1px solid $neutral-color-light;
   color        : $primary-color;
