@@ -46,6 +46,12 @@ label {
 
 p {
   @include font-line($font-size);
+
+  margin-top: $margin-smallest;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 strong {
