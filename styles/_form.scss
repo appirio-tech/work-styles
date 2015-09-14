@@ -1,4 +1,4 @@
-input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="url"] {
   @include font-line($font-size-big);
 
   font-family  : "sofia-pro";
