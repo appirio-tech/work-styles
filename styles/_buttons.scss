@@ -16,17 +16,17 @@ button {
 
   &.small {
     font-size: $font-size-small;
-    padding: $padding-smallest;
+    padding: $padding-small;
   }
 
   &.big {
     font-size: $font-size-big;
-    padding: $padding-small;
+    padding: $padding-big;
   }
 
   &.biggest {
     font-size: $font-size-biggest;
-    padding: $padding-small;
+    padding: $padding-biggest;
   }
 
   &.wide {
