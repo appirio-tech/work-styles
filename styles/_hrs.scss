@@ -1,0 +1,14 @@
+hr {
+  &.smallest {
+    height: 1px
+  }
+  &.small {
+    height: 1.5px
+  }
+  &.big {
+    height: 5px
+  }
+  &.biggest {
+    height: 10px
+  }
+}
