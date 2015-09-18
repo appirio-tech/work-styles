@@ -1,5 +1,7 @@
 - var css = ['main', 'spacing', 'padding', 'margins', 'colors', 'font-sizes', 'line-heights', 'border-radiuses', 'icons']
 
+- var navs = ['primary-colors', 'neutral-colors', 'buttons', 'paddings', 'margins', 'spacing', 'border-radiuses', 'form-elements', 'typography', 'font-sizes', 'line-heights', 'loader', 'icons', 'lists', 'hrs', 'mixins']
+
 html(ng-app='timeline')
   head
     title Work Styles
@@ -25,6 +27,13 @@ html(ng-app='timeline')
       try{Typekit.load({ async: true });}catch(e){}
 
   body
+    ul.nav(role="navigation")
+      each nav in navs
+        - var spaces = nav.replace('-', ' ')
+        li
+          a(href="##{nav}") #{spaces}
+
+
     main
       include views/primary-colors
 
