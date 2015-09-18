@@ -8,7 +8,7 @@ before_install:
 - npm install
 - bower install
 script:
-- gulp scss
+- gulp preprocessors
 sudo: false
 before_deploy:
 - npm-prepublish --verbose
