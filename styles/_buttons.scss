@@ -44,8 +44,6 @@ button {
   &.action {
     background-color: $primary-color;
     color           : $white;
-    border          : none;
-    margin          : 1px; /* compensate for border none */
 
     &:hover {
       background-color: #0282BD;
