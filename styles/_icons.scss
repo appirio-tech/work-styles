@@ -1,16 +1,16 @@
 .big .icon {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
 }
 
 .biggest .icon {
-  width: 36px;
-  height: 36px;
+  width: 68px;
+  height: 68px;
 }
 
 .small .icon {
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
 }
 
 .smallest .icon {
@@ -21,22 +21,22 @@
 .icon {
   background-size  : 100% 100%;
   background-repeat: no-repeat;
-  width            : 24px;
-  height           : 24px;
+  width            : 30px;
+  height           : 30px;
 
   &.big {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
   }
 
   &.biggest {
-    width: 36px;
-    height: 36px;
+    width: 68px;
+    height: 68px;
   }
 
   &.small {
-    width: 20px;
-    height: 20px;
+    width: 21px;
+    height: 21px;
   }
 
   &.smallest {
