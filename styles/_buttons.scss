@@ -1,7 +1,7 @@
 button {
   border-radius   : $border-radius;
   border          : 1px solid $primary-color;
-  padding         : $padding-small;
+  padding         : $padding-small $padding;
   color           : $primary-color;
   background-color: $white;
   cursor          : pointer;
