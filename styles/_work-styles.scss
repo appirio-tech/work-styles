@@ -43,3 +43,7 @@ a {
   color: $primary-color;
 }
 
+.elevated {
+  box-shadow: 0 6px 6px -6px $neutral-color-dark;
+}
+
