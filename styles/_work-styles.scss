@@ -52,3 +52,20 @@ a {
   box-shadow: 0 0px 6px 0px $neutral-color-dark;
 }
 
+.notification {
+  padding         : $padding-smallest;
+  background-color: $danger-color;
+  border-radius   : $border-radius-big;
+  color           : $white;
+  margin-left     : $margin-smallest;
+  min-width       : 20px;
+  text-align      : center;
+  display         : inline-block;
+
+  &.absolute {
+    position: absolute;
+    top     : -$padding-smallest;
+    right   : -$padding-smallest;
+  }
+}
+
