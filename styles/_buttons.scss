@@ -1,4 +1,4 @@
-button {
+a.button, button {
   border-radius   : $border-radius;
   border          : 1px solid $primary-color;
   padding         : $padding-small $padding;
@@ -7,6 +7,7 @@ button {
   cursor          : pointer;
   font-size       : $font-size-small;
   text-transform  : uppercase;
+  display         : inline-block;
 
   &.smallest {
     font-size: $font-size-smallest;
