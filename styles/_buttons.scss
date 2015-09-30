@@ -5,9 +5,8 @@ button {
   color           : $primary-color;
   background-color: $white;
   cursor          : pointer;
-  font-size       : $font-size;
+  font-size       : $font-size-small;
   text-transform  : uppercase;
-  font-weight     : 400;
 
   &.smallest {
     font-size: $font-size-smallest;
