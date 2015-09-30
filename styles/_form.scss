@@ -1,17 +1,14 @@
 input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="url"] {
-  @include font-line($font-size-small);
-
   font-family  : "sofia-pro";
   display      : block;
   padding      : $padding-small;
   border       : 1px solid $neutral-color-light;
   color        : $primary-color;
   border-radius: $border-radius-smallest;
+  font-size    : $font-size-small;
 }
 
 textarea {
-  @include font-line($font-size-small);
-
   font-family  : "sofia-pro";
   display      : block;
   height       : 75px;
@@ -19,6 +16,7 @@ textarea {
   border       : 1px solid $neutral-color-light;
   border-radius: $border-radius-smallest;
   padding      : $padding-small;
+  font-size    : $font-size-small;
 }
 
 input[type="text"], input[type="password"], input[type="email"], textarea {
