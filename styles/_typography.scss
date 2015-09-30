@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
   margin-top: $margin;
+  text-transform: uppercase;
 
   &:first-child {
     margin-top: 0;
@@ -8,22 +9,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 40px;
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: 30px;
-  text-transform: uppercase;
 }
 
 h3 {
   font-size: 22px;
-  text-transform: uppercase;
 }
 
 h4 {
   font-size: 18px;
-  text-transform: uppercase;
 }
 
 h5 {
@@ -39,7 +36,6 @@ h6 {
 
 time {
   color: $neutral-color-light;
-  font-style: italic;
 }
 
 label {
