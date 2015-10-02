@@ -68,3 +68,37 @@ a {
   }
 }
 
+.none {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-grow {
+  @include flex-grow(1);
+}
+
+.flex {
+  @include display(flex);
+}
+
+.flex-center {
+  @include flex-center(center);
+}
+
+.flex-column {
+  @include display(flex);
+  @include flex-direction(column);
+}
+
+.flex-center-column {
+  @include flex-center(center);
+  @include flex-direction(column);
+  @include align-items(center);
+}
