@@ -104,15 +104,11 @@ a {
   }
 
   &.middle {
-    @include align-items(middle);
+    @include align-items(center);
   }
 
   &.stretch {
     @include align-items(stretch);
-  }
-
-  &.grow {
-    @include flex-grow(1);
   }
 
   &.wrap {
@@ -120,7 +116,7 @@ a {
   }
 }
 
-.flex-grow { /** DEPRECATED **/
+.flex-grow {
   @include flex-grow(1);
 }
 
