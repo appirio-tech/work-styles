@@ -80,24 +80,60 @@ a {
   position: relative;
 }
 
-.flex-grow {
+.flex {
+  @include display(flex);
+
+  &.column {
+    @include flex-direction(column);
+  }
+
+  &.center {
+    @include justify-content(center);
+  }
+
+  &.end {
+    @include justify-content(end);
+  }
+
+  &.space-between {
+    @include justify-content(space-between);
+  }
+
+  &.space-around {
+    @include justify-content(space-around);
+  }
+
+  &.middle {
+    @include align-items(middle);
+  }
+
+  &.stretch {
+    @include align-items(stretch);
+  }
+
+  &.grow {
+    @include flex-grow(1);
+  }
+
+  &.wrap {
+    @include flex-wrap(wrap);
+  }
+}
+
+.flex-grow { /** DEPRECATED **/
   @include flex-grow(1);
 }
 
-.flex {
-  @include display(flex);
-}
-
-.flex-center {
+.flex-center { /** DEPRECATED **/
   @include flex-center(center);
 }
 
-.flex-column {
+.flex-column { /** DEPRECATED **/
   @include display(flex);
   @include flex-direction(column);
 }
 
-.flex-center-column {
+.flex-center-column { /** DEPRECATED **/
   @include flex-center(center);
   @include flex-direction(column);
   @include align-items(center);
