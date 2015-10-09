@@ -31,10 +31,12 @@ a.button, button {
 
   &.wide {
     min-width: 120px;
+    width: 120px; /* to make ie happy */
   }
 
   &.wider {
     min-width: 240px;
+    width: 240px; /* to make ie happy */
   }
 
   &.widest {
