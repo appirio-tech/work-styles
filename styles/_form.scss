@@ -6,6 +6,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
   color        : $primary-color;
   border-radius: $border-radius-smallest;
   font-size    : $font-size-small;
+  width        : 180px;
 }
 
 textarea {
@@ -19,7 +20,7 @@ textarea {
   font-size    : $font-size-small;
 }
 
-input[type="text"], input[type="password"], input[type="email"], textarea {
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="url"], textarea {
   &.wide {
     width: 350px;
   }
