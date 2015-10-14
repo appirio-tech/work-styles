@@ -55,6 +55,11 @@ p {
     margin-top: $margin-smallest / 2;
     color: $neutral-color;
   }
+
+  &.error {
+    color: $danger-color;
+    font-style: italic;
+  }
 }
 
 strong {
