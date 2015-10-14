@@ -7,6 +7,10 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
   border-radius: $border-radius-smallest;
   font-size    : $font-size-small;
   width        : 180px;
+
+  &.error {
+    border-left: 3px solid $danger-color;
+  }
 }
 
 textarea {
