@@ -1,5 +1,4 @@
 h1, h2, h3, h4, h5, h6 {
-  margin-top: $margin;
   text-transform: uppercase;
 
   &:first-child {
@@ -34,14 +33,12 @@ h4 {
 h5 {
   @include font-line(16px);
 
-  margin-top: $margin-small;
   font-weight: $font-weight-bold;
 }
 
 h6 {
   @include font-line(16px);
 
-  margin-top: $margin-small;
   font-weight: $font-weight-lightest;
 }
 
