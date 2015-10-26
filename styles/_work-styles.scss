@@ -111,6 +111,10 @@ a {
     @include align-items(stretch);
   }
 
+  &.bottom {
+    @include align-items(flex-end);
+  }
+
   &.wrap {
     @include flex-wrap(wrap);
   }
