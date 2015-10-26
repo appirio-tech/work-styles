@@ -77,6 +77,11 @@
 
     width: 14px;
     height: 31px;
+
+    &.smallest {
+      width: 7px;
+      height: 15.5px;
+    }
   }
 
   &.download {
