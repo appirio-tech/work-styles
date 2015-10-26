@@ -59,6 +59,19 @@ ul.examples.font-sizes
 
       .example(class=fontSize) Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit, <br />sed do eiusmod tempor incididunt ut labore
 
+- fontWeights = ['font-weight-lightest', 'font-weight-light', 'font-weight', 'font-weight-bold', 'font-weight-boldest']
+
+a.anchor(name="font-weights")
+
+h1 Font Weights
+
+ul.examples.font-weights
+  - for fontWeight in fontWeights
+    li
+      label $#{fontWeight}
+
+      .example(class=fontWeight) Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit, <br />sed do eiusmod tempor incididunt ut labore
+
 - lineHeights = ['line-height-smallest', 'line-height-small', 'line-height', 'line-height-big', 'line-height-biggest']
 
 a.anchor(name="line-heights")
