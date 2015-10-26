@@ -92,7 +92,7 @@ a {
   }
 
   &.end {
-    @include justify-content(end);
+    @include justify-content(flex-end);
   }
 
   &.space-between {
