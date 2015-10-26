@@ -50,13 +50,14 @@ time {
 }
 
 label {
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 p {
   @include font-line($font-size-small);
 
   margin-top: $margin-smallest;
+  font-weight: $font-weight-light;
 
   &:first-child {
     margin-top: 0;
