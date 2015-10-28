@@ -116,6 +116,12 @@ a.button, button {
     }
   }
 
+  &.hollow {
+    background-color: transparent;
+    color           : $white;
+    border-color    : $white;
+  }
+
   &.clean {
     background-color: transparent;
     border-radius   : 0;

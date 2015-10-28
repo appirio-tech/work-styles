@@ -1,4 +1,4 @@
-- types = ['', 'action', 'success', 'warning', 'danger', 'info', 'clean']
+- types = ['', 'action', 'success', 'warning', 'danger', 'info', 'clean', 'hollow']
 - sizes = ['smallest', 'small', 'big', 'biggest']
 - widths = ['wide', 'wider']
 
@@ -8,19 +8,19 @@ h1 Buttons
 
 hr
 
-ul.examples
+ul.examples.buttons
   - for type in types
     li
       label .#{type}
 
-      .example
+      .example(class=type)
         button(class=type) Submit
 
         | 
 
         button(class=type disabled=true) Disabled
 
-ul.examples
+ul.examples.buttons
   - for size in sizes
     li
       label .#{size}
@@ -28,7 +28,7 @@ ul.examples
       .example
         button(class=size) Submit
 
-ul.examples
+ul.examples.buttons
   - for width in widths
     li
       label .#{width}
