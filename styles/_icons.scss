@@ -48,6 +48,28 @@
     @include transform(rotate(180deg));
   }
 
+  &.plus {
+    border          : 1px solid $primary-color;
+    background-color: $primary-color;
+    width           : 24px;
+    height          : 24px;
+    border-radius   : 50%;
+    text-align      : center;
+    color           : $white;
+
+    &::before {
+      content    : '+';
+      font-size  : 20px;
+      font-family: arial;
+      line-height: 24px - 1px * 2;
+    }
+
+    &.hollow {
+      background-color: transparent;
+      color           : $primary-color;
+    }
+  }
+
   &.checkmark {
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdGVkIGJ5IEljb01vb24uaW8gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4NCjxwYXRoIGZpbGw9IiM0NDQ0NDQiIGQ9Ik0yNyA0bC0xNSAxNS03LTctNSA1IDEyIDEyIDIwLTIweiI+PC9wYXRoPg0KPC9zdmc+DQo=");
   }
