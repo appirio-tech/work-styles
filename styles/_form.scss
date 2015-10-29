@@ -24,7 +24,7 @@ textarea {
   font-size    : $font-size-small;
 }
 
-input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="url"], textarea {
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="url"], textarea, select {
   &.wide {
     width: 350px;
   }
