@@ -52,10 +52,11 @@ label {
 }
 
 p {
-  @include font-line($font-size-small);
+  @include font-line($font-size);
 
   margin-top: $margin-smallest;
   font-weight: $font-weight-light;
+  line-height: $line-height;
 
   &:first-child {
     margin-top: 0;
