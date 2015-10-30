@@ -9,6 +9,7 @@ a.button, button {
   font-weight     : $font-weight-bold;
   text-transform  : uppercase;
   display         : inline-block;
+  font-family     : "source-sans-pro";
 
   &.smallest {
     font-size: $font-size-smallest;
