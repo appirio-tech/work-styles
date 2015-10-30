@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
-  color         : $black;
+  color         : $neutral-color-dark;
   font-weight   : $font-weight-light;
   font-family   : "sofia-pro";
 
@@ -23,6 +23,7 @@ h3 {
   @include font-line(24px);
 
   font-weight: $font-weight-boldest;
+  color      : $neutral-color-darkest;
 }
 
 h4 {
@@ -37,6 +38,8 @@ h5 {
 
 h6 {
   @include font-line(18px);
+
+  color: $neutral-color-darkest;
 }
 
 time {
