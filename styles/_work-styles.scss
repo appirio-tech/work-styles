@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family        : "sofia-pro";
+  font-family        : "source-sans-pro";
   position           : relative;
   min-height         : 100%;
   margin             : 0;
@@ -27,8 +27,9 @@ body {
   overflow-y         : auto;
   -webkit-text-stroke: 1px transparent;
   background-color   : $neutral-color-darkest;
-  font-size          : $font-size-small;
-  color              : $black;
+  font-size          : 15px;
+  font-weight        : $font-weight-light;
+  color              : $neutral-color-darkest;
 }
 
 hr {
@@ -42,10 +43,11 @@ a {
   cursor         : pointer;
   color          : $primary-color;
   text-decoration: none;
+  font-weight    : $font-weight-light;
 }
 
 .elevated-bottom {
-  box-shadow: 0 6px 6px -6px $neutral-color-dark;
+  border-bottom: 2px solid $black;
 }
 
 .elevated {
@@ -53,18 +55,25 @@ a {
 }
 
 .notification {
+  $diameter: 24px;
+
   padding         : $padding-smallest;
   background-color: $danger-color;
-  border-radius   : $border-radius-big;
+  border-radius   : $diameter;
   color           : $white;
-  min-width       : 20px;
+  min-width       : $diameter;
+  min-height      : $diameter;
   text-align      : center;
   display         : inline-block;
 
   &.absolute {
     position: absolute;
-    top     : -$padding-smallest;
-    right   : -$padding-smallest;
+    top     : -$diameter/2;
+    right   : -$diameter/2;
+  }
+
+  &.small {
+    font-size: $font-size-smallest;
   }
 }
 
@@ -124,17 +133,4 @@ a {
   @include flex-grow(1);
 }
 
-.flex-center { /** DEPRECATED **/
-  @include flex-center(center);
-}
 
-.flex-column { /** DEPRECATED **/
-  @include display(flex);
-  @include flex-direction(column);
-}
-
-.flex-center-column { /** DEPRECATED **/
-  @include flex-center(center);
-  @include flex-direction(column);
-  @include align-items(center);
-}

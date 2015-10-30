@@ -14,6 +14,10 @@ ul.examples.colors {
         background-color: $primary-color-light;
       }
 
+      &.primary-color-dark {
+        background-color: $primary-color-dark;
+      }
+
       &.neutral-color {
         background-color: $neutral-color;
       }
@@ -42,12 +46,12 @@ ul.examples.colors {
         background-color: $danger-color;
       }
 
-      &.accent-color {
-        background-color: $accent-color;
+      &.danger-color-light {
+        background-color: $danger-color-light;
       }
 
-      &.warning-color {
-        background-color: $warning-color;
+      &.danger-color-lightest {
+        background-color: $danger-color-lightest;
       }
 
       &.white {

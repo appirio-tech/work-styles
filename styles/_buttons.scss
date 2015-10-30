@@ -5,7 +5,8 @@ a.button, button {
   color           : $primary-color;
   background-color: $white;
   cursor          : pointer;
-  font-size       : $font-size-small;
+  font-size       : $font-size-big;
+  font-weight     : $font-weight-bold;
   text-transform  : uppercase;
   display         : inline-block;
 
@@ -48,11 +49,11 @@ a.button, button {
     color           : $white;
 
     &:hover {
-      background-color: #0282BD;
+      background-color: $primary-color-dark;
     }
 
     &:disabled {
-      background-color: #A6E0FB;
+      background-color: $primary-color-light;
     }
   }
 
@@ -68,21 +69,6 @@ a.button, button {
 
     &:disabled {
       background-color: #B6C194;
-    }
-  }
-
-  &.warning {
-    background-color: $warning-color;
-    color           : $white;
-    border          : none;
-    margin          : 1px; /* compensate for border none */
-
-    &:hover {
-      background-color: #98960E;
-    }
-
-    &:disabled {
-      background-color: #D8D7A6;
     }
   }
 

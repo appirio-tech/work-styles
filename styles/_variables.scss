@@ -28,8 +28,8 @@ $margin-smallest: 8px;
 
 $font-size-smallest: 12px;
 $font-size-small   : 14px;
-$font-size         : 18px;
-$font-size-big     : 24px;
+$font-size         : 16px;
+$font-size-big     : 18px;
 $font-size-biggest : 40px;
 
 $line-height         : 16px;
@@ -44,25 +44,26 @@ $border-radius-biggest : 10px;
 $border-radius-small   : 4px;
 $border-radius-smallest: 2px;
 
-$black: #444;
+$black: #4a4a4a;
 $white: #fff;
 
-$primary-color      : #00aeff;
-$primary-color-light: #ddf2fd;
-$accent-color       : #0096ff;
-$success-color      : #99cc00;
-$danger-color       : #ff0066;
-$warning-color      : #DAD714;
+$primary-color        : #00aeff;
+$primary-color-light  : #ddf2fd;
+$primary-color-dark   : #0096ff;
+$success-color        : #99cc00;
+$danger-color         : #ff0066;
+$danger-color-light   : #ed7878;
+$danger-color-lightest: #ffcce1;
 
-$neutral-color         : #b7b7b7;
-$neutral-color-dark    : #7f7f7f;
-$neutral-color-darkest : #3d3d3d;
-$neutral-color-light   : #d1d3d4;
-$neutral-color-lightest: #f0f0f0;
+$neutral-color         : #c3c1c1;
+$neutral-color-dark    : #8c8b8b;
+$neutral-color-darkest : #706e6e;
+$neutral-color-light   : #d8d8d8;
+$neutral-color-lightest: #f2f2f2;
 
 $font-weight         : 400;
 $font-weight-light   : 300;
 $font-weight-lightest: 200;
-$font-weight-bold    : 600;
+$font-weight-bold    : 700;
 $font-weight-boldest : 700;
 

@@ -1,5 +1,8 @@
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
+  color         : $neutral-color-dark;
+  font-weight   : $font-weight-light;
+  font-family   : "sofia-pro";
 
   &:first-child {
     margin-top: 0;
@@ -7,39 +10,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @include font-line(30px);
+  @include font-line(32px);
 
   font-weight: $font-weight-lightest;
 }
 
 h2 {
-  @include font-line(26px);
-
-  font-weight: $font-weight-lightest;
+  @include font-line(32px);
 }
 
 h3 {
-  @include font-line(22px);
+  @include font-line(24px);
 
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-boldest;
+  color      : $neutral-color-darkest;
 }
 
 h4 {
-  @include font-line(18px);
+  @include font-line(22px);
 
-  font-weight: $font-weight-lightest;
+  font-weight: $neutral-color-dark;
 }
 
 h5 {
-  @include font-line(16px);
-
-  font-weight: $font-weight-bold;
+  @include font-line(18px);
 }
 
 h6 {
-  @include font-line(16px);
+  @include font-line(18px);
 
-  font-weight: $font-weight-light;
+  color: $neutral-color-darkest;
 }
 
 time {
