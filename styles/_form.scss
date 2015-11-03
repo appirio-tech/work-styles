@@ -1,4 +1,5 @@
 input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="url"] {
+  font-family  : "source-sans-pro";
   display      : block;
   padding      : $padding-small;
   border       : 1px solid $neutral-color-light;
@@ -14,6 +15,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
 }
 
 textarea {
+  font-family  : "source-sans-pro";
   display      : block;
   height       : 75px;
   color        : $black;
