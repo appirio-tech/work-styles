@@ -72,6 +72,14 @@ p {
     padding         : $padding-small;
     background-color: $danger-color-lightest;
   }
+
+  &.wide {
+    width: 250px;
+  }
+
+  &.wider {
+    width: 500px;
+  }
 }
 
 strong {
