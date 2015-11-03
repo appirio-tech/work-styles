@@ -49,9 +49,8 @@ label {
 }
 
 p {
-  @include font-line($font-size);
-
-  margin-top: $margin-smallest;
+  font-size  : $font-size;
+  margin-top : $margin-smallest;
   font-weight: $font-weight-light;
   line-height: $line-height;
 
@@ -61,12 +60,17 @@ p {
 
   &.secondary {
     margin-top: $margin-smallest / 2;
-    color: $neutral-color;
+    color: $neutral-color-dark;
   }
 
   &.error {
-    color: $danger-color;
-    font-style: italic;
+    font-size       : $font-size-small;
+    line-height     : $line-height-small;
+    color           : $danger-color;
+    font-style      : italic;
+    border          : 1px solid $danger-color-light;
+    padding         : $padding-small;
+    background-color: $danger-color-lightest;
   }
 }
 
