@@ -5,6 +5,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
   color        : $black;
   border-radius: $border-radius-small;
   font-size    : $font-size-small;
+  font-weight  : $font-weight-light;
   width        : 180px;
 
   &.error {
@@ -20,6 +21,7 @@ textarea {
   border-radius: $border-radius-smallest;
   padding      : $padding-small;
   font-size    : $font-size-small;
+  font-weight  : $font-weight-light;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="url"], textarea, select {
