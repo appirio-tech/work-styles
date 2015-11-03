@@ -71,6 +71,7 @@ p {
     border          : 1px solid $danger-color-light;
     padding         : $padding-small;
     background-color: $danger-color-lightest;
+    text-align      : left;
   }
 
   &.wide {
