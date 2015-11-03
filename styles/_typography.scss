@@ -1,7 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color         : $neutral-color-dark;
-  font-weight   : $font-weight-light;
+  font-weight   : $font-weight-boldest;
   font-family   : "sofia-pro";
 
   &:first-child {
@@ -21,22 +21,22 @@ h2 {
 
 h3 {
   @include font-line(24px);
-
-  font-weight: $font-weight-boldest;
 }
 
 h4 {
   @include font-line(24px);
+
+  font-weight: $font-weight-lightest;
 }
 
 h5 {
   @include font-line(18px);
-
-  font-weight: $font-weight-boldest;
 }
 
 h6 {
   @include font-line(18px);
+
+  font-weight: $font-weight-lightest;
 }
 
 time {
