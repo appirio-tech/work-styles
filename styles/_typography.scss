@@ -64,14 +64,10 @@ p {
   }
 
   &.error {
-    font-size       : $font-size-small;
-    line-height     : $line-height-small;
-    color           : $danger-color;
-    font-style      : italic;
-    border          : 1px solid $danger-color-light;
-    padding         : $padding-small;
-    background-color: $danger-color-lightest;
-    text-align      : left;
+    font-size  : $font-size-small;
+    line-height: $line-height-small;
+    color      : $danger-color;
+    font-style : italic;
   }
 
   &.wide {
