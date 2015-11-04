@@ -30,11 +30,11 @@ h4 {
 }
 
 h5 {
-  @include font-line(20px);
+  @include font-line(18px);
 }
 
 h6 {
-  @include font-line(20px);
+  @include font-line(18px);
 
   font-weight: $font-weight-lightest;
 }
