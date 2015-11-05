@@ -3,10 +3,6 @@ h1, h2, h3, h4, h5, h6 {
   color         : $neutral-color-darkest;
   font-weight   : $font-weight-lightest;
   font-family   : "sofia-pro";
-
-  &:first-child {
-    margin-top: 0;
-  }
 }
 
 h1 {
@@ -48,13 +44,8 @@ label {
 
 p {
   font-size  : $font-size;
-  margin-top : $margin-smallest;
   font-weight: $font-weight-light;
   line-height: $line-height;
-
-  &:first-child {
-    margin-top: 0;
-  }
 
   &.secondary {
     color: $neutral-color-dark;
