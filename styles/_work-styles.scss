@@ -90,6 +90,10 @@ a {
   position: relative;
 }
 
+.no-height {
+  max-height: 0 !important;
+}
+
 .flex {
   @include display(flex);
 
