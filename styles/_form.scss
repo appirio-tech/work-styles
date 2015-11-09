@@ -4,7 +4,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
   padding      : $padding-small;
   border       : 1px solid $neutral-color-light;
   color        : $black;
-  border-radius: $border-radius-small;
+  border-radius: $border-radius;
   font-size    : $font-size-small;
   font-weight  : $font-weight-light;
   width        : 180px;
@@ -20,7 +20,7 @@ textarea {
   height       : 75px;
   color        : $black;
   border       : 1px solid $neutral-color-light;
-  border-radius: $border-radius-smallest;
+  border-radius: $border-radius;
   padding      : $padding-small;
   font-size    : $font-size-small;
   font-weight  : $font-weight-light;
