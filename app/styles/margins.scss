@@ -1,6 +1,8 @@
 @import "work-includes";
 
 ul.margins {
+  text-decoration: line-through;
+
   .example {
     border: 1px dashed $primary-color;
 

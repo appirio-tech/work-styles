@@ -1,6 +1,8 @@
 @import "work-includes";
 
 ul.paddings {
+  text-decoration: line-through;
+
   .example {
     border: 1px solid $primary-color;
 
