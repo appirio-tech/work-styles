@@ -55,7 +55,7 @@ a {
 }
 
 .elevated {
-  box-shadow: 0 0px 6px 0px $neutral-color-dark;
+  @include elevated;
 }
 
 .notification {
