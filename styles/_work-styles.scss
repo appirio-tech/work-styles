@@ -14,7 +14,7 @@ html {
   box-sizing: border-box;
 }
 
-main { /* ie dosnt support main tag */
+main, header, footer { /* ie dosnt support these tags */
   display: block;
 }
 
