@@ -18,6 +18,14 @@ ul.examples.colors {
         background-color: $primary-color-dark;
       }
 
+      &.neutral-color-light {
+        background-color: $neutral-color-light;
+      }
+
+      &.neutral-color-lightest {
+        background-color: $neutral-color-lightest;
+      }
+
       &.neutral-color {
         background-color: $neutral-color;
       }
@@ -30,12 +38,32 @@ ul.examples.colors {
         background-color: $neutral-color-darkest;
       }
 
-      &.neutral-color-light {
-        background-color: $neutral-color-light;
+      &.text-color-light {
+        background-color: $text-color-light;
       }
 
-      &.neutral-color-lightest {
-        background-color: $neutral-color-lightest;
+      &.text-color-lightest {
+        background-color: $text-color-lightest;
+      }
+
+      &.text-color {
+        background-color: $text-color;
+      }
+
+      &.text-color-dark {
+        background-color: $text-color-dark;
+      }
+
+      &.text-color-darkest {
+        background-color: $text-color-darkest;
+      }
+
+      &.text-color-light {
+        background-color: $text-color-light;
+      }
+
+      &.text-color-lightest {
+        background-color: $text-color-lightest;
       }
 
       &.success-color {
