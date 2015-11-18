@@ -142,6 +142,10 @@ a {
   @include flex-grow(1);
 }
 
+.flex-one {
+  @include flex(1);
+}
+
 .flex-shrink {
   @include flex-shrink(1);
   @include flex-basis(100px);
