@@ -53,3 +53,12 @@
 @mixin elevated() {
   box-shadow: 0 0px 6px 0px $neutral-color-dark;
 }
+
+@mixin exclude-first($property: margin-top, $value: 10px, $first-value: 0px) {
+  #{$property}: $value;
+
+  &:first-child {
+    #{$property}: $first-value;
+  }
+}
+
